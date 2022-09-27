@@ -19,14 +19,14 @@ Comment.init(
         key: "id"
       }
     },
-    blog_id: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      references: {
-        model: "blog",
-        key: "id"
-      }
-    },
+    // blog_id: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    //   references: {
+    //     model: "blog",
+    //     key: "id"
+    //   }
+    // },
     comment: {
       type: DataTypes.TEXT,
       allowNull: false,
